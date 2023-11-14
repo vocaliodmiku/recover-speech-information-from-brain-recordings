@@ -3,7 +3,7 @@
 <html lang="en">
 <head><meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>quickstart</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>index_cn</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <style type="text/css">
     pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
@@ -7476,57 +7476,85 @@ a.anchor-link {
 <!-- End of mermaid configuration --></head>
 <body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
 <main>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=0099df12-d7c4-4512-816f-f21709019f65">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<dl style="background-color:#b9a2100f">
-<p></p>
-<p style="font-size:18px">📌 <a style="color:#6c3a3af2;"><b>Research Themes: Recover speech/semantic information from invasive/non-invasive brain recordings. </b></a></p>
-<p>The neural activity in the human auditory pathway has a hierarchical structure. Different neural structures process and represent speech signals in a more complex and abstract manner as the hierarchy increases. Based on linguistic and phonological hypotheses or theories, neuroscientists extract features at different levels and analyze the encoding information in each stage of the pathway. Figure 1 illustrates several important processing areas of the human auditory pathway and their functions.</p>
-<p>In the field of artificial intelligence, modern artificial intelligence (AI) models using deep neural networks (DNNs) and large amount of data are approaching human-level performance in automatic speech recognition. These data-driven models with their complex internal dynamic representations have caught the attention of neuroscientists. Many interesting research topics have been proposed, such as, Whether these AI models and the brain's auditory circuitry perform similar cognitive functions, is there computational and representational similarity between the two?</p>
-<p></p>
-</dl>
-<hr/>
 <dl style="background-color:rgba(230, 199, 243, 0.13)">
 <p></p>
-<p style="font-size:18px">📌 <a style="color:#6c3a3af2;"><b>A novel research methodology: Align deep learning representation with auditory neural activity.</b></a></p>
-<p>This involves extracting feature representations from DNN pre-trained on speech, using these data-driven features to build new linear encoding models, and conducting correlation analysis with real brain auditory response signals. The aim is to explore the similarity between the intrinsic feature representations and the neural population activity in different brain auditory pathways, offering new data-driven computational models of sensory perception.</p>
+<p style="font-size:18px">📌 <a style="color:#6c3a3af2;"><b>Research Themes: Recover speech/semantic information from invasive/non-invasive brain recordings. </b></a></p>
+<p>Speech/Semantic reconstruction of continuous language from brain recordings is an emerging research field that aims to decode the speech, words, sentences, or even entire narratives from neural activity patterns recordings. It can potentially to transform our understanding of how the brain processes speech.
+    </p>
 <div class="twocol" style="overflow: hidden;width:1000px;">
 <div class="leftcol" style="width: 600px;float: left;vertical-align:top;margin-bottom:10px;">
-<iframe width="600" height="350" src="https://www.youtube-nocookie.com/embed/bATbNSHb6ho?si=RUIUw8NAsWdHH1ab" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<p style="color:#cccccc;margin-top: 0px;font-size: 10px;">(Figure 3) Image from: Li, Yuan Ning. https://mp.weixin.qq.com/s/DYE4jURC3m8-D_apz3aiPg</p>
+<p style="padding-left:0px;margin-bottom: 0;margin-top: 0"><img alt="No description has been provided for this image" height="360" src="images/fig1.png" style="border: 0;" width="600"/></p>
+<p style="color:#cccccc;margin-top: 0px;font-size: 10px;"><a href="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002176">Bellier, L., Llorens, A., Marciano, D., Gunduz, A., Schalk, G., Brun- ner, P., Knight, R.T., 2023. Music can be reconstructed from human auditory cortex activity using nonlinear decoding models. PLoS Biology 21, e3002176. doi:10.1371/journal.pbio.3002176.</a></p>
 </div>
 <div class="rightcol" style="width: 400px;float: right;">
 <ul style="overflow: hidden; padding-right:10px;">
-<li><a><font size="2">DNN perform well in speech recognition tasks, providing promising computational models for speech processing. Exciting research outcomes have been obtained by utilizing the neural encoding from the auditory nerve to the speech cortex using state-of-the-art DNN models:<br/>1. The hierarchical representation of DNNs is well correlated with the hierarchical neural activity in human auditory perception system.<br/>2. Deeper layers of DNNs are more strongly correlated with neural activity in higher-level auditory cortices.<br/>3. They align with the phonetic and syllabic structures in speech.
+<li> <b>Music can be reconstructed from human auditory cortex activity</b>
+<br/>
+<a><font size="2">Reconstructing <i>Pink Floyd</i> songs directly from human neural recordings (primarily intonation and rhythm). 29 neurosurgical patients passively listened to the popular rock song "<i>Another Brick in the Wall, Part 1</i>" by <i>Pink Floyd</i> while their neural activity was recorded from a total of 2668 electrodes directly placed on their cortical surface (Electrocorticography - ECoG). Researchers used nonlinear decoding models to estimate the sound of the Pink Floyd song based on patterns of neural activity recorded from the electrodes. <br/> Despite the low fidelity of the sound, the phrase "<i>All in all, it's just Another Brick in the Wall</i>" was recognizable in terms of rhythm and melody.
       </font></a>
 </li></ul>
 </div>
 </div>
-</dl>
-
-
+<p>Invasive devices have made significant breakthroughs in decoding brain signals, with deep learning algorithms trained on intracranial recordings now able to decode basic language features such as phonemes, words, and spectrograms. However, compared to invasive recording devices, non-invasive brain recordings have clear advantages for users. Currently, extending these invasive recording modeling methods to natural language and non-invasive brain recordings remains a major challenge.</p>
+<hr/>
+<p><a href="https://www.nature.com/articles/s41593-023-01304-9">Tang et al.</a> proposed a novel approach to reconstruct continuous language based on three participants fMRI recording while they listened to spoken stories. They utilized GPT and an encoding model that could score the likelihood of candidate sequences and used beam search to decode the fMRI signals. They successfully reconstructed the auditory and semantic content of the stories. Despite the low temporal resolution of fMRI, this strategy clearly demonstrates the ability to capture language-related neural mechanisms.</p>
+<div align="center">
+<img alt="No description has been provided for this image" src="images/jerrytang.png" style="border: 0;" width="700px"/>
+<center style="color:#6a5959;margin-top: 0px;font-size: 10px;">(a) An encoding model that can predict the relationship between semantic features and brain responses.
+(b) The decoder maintains a set of candidate word sequences and evaluates the likelihood of each recorded brain response under each continuation provided by new vocabulary, based on the encoding model, and retains the most probable continuation.</center>
+</div>
+<p>Unlike traditional regression coding models, <a href="https://www.nature.com/articles/s42256-023-00714-5">Défossez et al.</a> have adopted an end-to-end framework to model the mapping between EEG data and speech representations. They introduce a model trained with contrastive learning to decode self-supervised representations of perceived speech from non-invasive M/EEG recordings. They evaluate their methods on four public datasets, including 175 volunteers. The results show that their model can identify the corresponding speech segment from 3 seconds of MEG signals, with up to 41% accuracy out of more than 1,000 distinct possibilities on average across participants, and more than 80% in the very best participants. This is an extremely exciting result. Imagine, if there is a language model (LM) that can contextualize these representations (for example, GPT4, LLaMA2), it is very likely to be able to recover the original auditory stimuli.</p>
+<div align="center">
+<img alt="No description has been provided for this image" src="images/fig1.png" style="border: 0;" width="400px"/>
+<center style="color:#6a5959;margin-top: 0px;font-size: 10px;">The model extracts deep contextual representations of speech signals and learns the representations of brain activity that align with these speech representations using a contrastive loss.</center>
+</div>
+<p><a href="https://arxiv.org/pdf/2309.07701.pdf">A recent work</a> published on a preprint combined these two works. First, a multi-subject decoding model was trained using contrastive learning to reconstruct continuous word embeddings from MEG data. Subsequently, a beam search algorithm was adopted to generate text sequences based on the reconstructed word embeddings. Given a candidate sentence in the beam, a language model was used to predict the subsequent words.</p>
+<div align="center">
+<img alt="No description has been provided for this image" src="images/2309.png" style="border: 0;" width="600px"/>
+</div>
+<center style="color:#6a5959;margin-top: 0px;font-size: 10px;">contrastive learning and beam search. </center>
+<p>Decoding brain signals is a significant challenge. I think, from the perspective of computer science or artificial intelligence, these efforts provide excellent entry points as a starting point to delve into this field.</p>
+<p>In this page, I will introduce some representative works in detail to restore the decoding process of an EEG recording. Because large artifacts can be a problem in M/EEG data, many details are of great significance, and I try to show them all with many many code. Then some exploration, such as further decoding sentences from the speech representations predicted from EEG data are presented. <strong>In summary, this page:</strong></p>
+<ul>
+<li><strong>(1) provides detailed explanations for some of the latest work in the field,</strong></li>
+<li><strong>(2) incorporates some inspirations, although they may not be rigorously proven here.</strong></li>
+</ul>
+<p><strong>Formal research results are still in progress</strong></p>
+</dl></div>
 </div>
 </div>
 </div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=c300d986-689d-4412-97f1-6a746823bc6d">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Part-One:-Decoding-speech-perception-from-non-invasive-brain-recordings">Part One: Decoding speech perception from non-invasive brain recordings<a class="anchor-link" href="#Part-One:-Decoding-speech-perception-from-non-invasive-brain-recordings">¶</a></h1><hr/>
-<h2 id="1.Dataset">1.Dataset<a class="anchor-link" href="#1.Dataset">¶</a></h2><p>我们直接从最有吸引力的结果开始。在论文的表格2中，我们看到模型(+wav2vec2.0)在<em>Gwilliams (MEG)</em>上实现了70.7%的TOP-10准确率。该结果使用了<a href="https://github.com/kingjr/meg-masc">MEG_MASC</a>数据集。请注意你的磁盘空间，它的大小为100GB。</p>
+<h1 id="Part-One:-Decoding-speech-perception-from-non-invasive-brain-recordings">Part One: Decoding speech perception from non-invasive brain recordings<a class="anchor-link" href="#Part-One:-Decoding-speech-perception-from-non-invasive-brain-recordings">¶</a></h1><p>In the former section, we mentioned an <strong>end-to-end decoding framework</strong>, which we will start with. Many details of data processing can provide us with a good understanding of the characteristics of M/EEG data. It primarily focuses on: <em>Current methods are limited to</em></p>
+<ol>
+<li><em>training a model on a single patient</em></li>
+<li><em>aiming to decode a limited set of interpretable features (MEL spectrogram, letters, phonemes, small set of words).</em></li>
+</ol>
+<p>The authors propose two approaches to address these issues:</p>
+<ol>
+<li>a single architecture trained across a large cohort of participants and</li>
+<li>deep representations of speech learnt with self-supervised learning on a large quantity of speech data.</li>
+</ol>
+<p>Now, we will explore this work through <strong>Inference</strong>.</p>
+<hr/>
+<h2 id="1.Dataset">1.Dataset<a class="anchor-link" href="#1.Dataset">¶</a></h2><p>We start directly with <strong>the most appealing result</strong>. In Table 2 of the paper, we observe that the model (+wav2vec2.0) achieves a TOP-10 accuracy of 70.7% on <em>Gwilliams (MEG)</em>. This result is obtained using the <a href="https://github.com/kingjr/meg-masc">MEG_MASC</a> dataset. Please note the disk space requirement, as it is 100GB in size.</p>
 <p>"MEG-MASC" dataset provides a curated set of raw magnetoencephalography (MEG) recordings of <strong>27</strong> English speakers who listened to two hours of naturalistic stories. Each participant performed <strong>two</strong> identical sessions, involving listening to <strong>four</strong> fictional stories from the Manually Annotated Sub-Corpus (MASC) intermixed with random word lists and comprehension questions.</p>
 <p>The authors time-stamp the onset and offset of each word and phoneme in the metadata of the recording, and organize the dataset according to the 'Brain Imaging Data Structure' (BIDS).</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=8f89d257-1ae0-4849-962b-da44dbd84e43">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7536,7 +7564,7 @@ a.anchor-link {
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">logging</span>
 <span class="kn">import</span> <span class="nn">os</span>
-<span class="c1"># os.environ["CUDA_VISIBLE_DEVICES"] = "3"</span>
+<span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">"CUDA_VISIBLE_DEVICES"</span><span class="p">]</span> <span class="o">=</span> <span class="s2">"1"</span>
 <span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">defaultdict</span>
 <span class="kn">from</span> <span class="nn">pathlib</span> <span class="kn">import</span> <span class="n">Path</span>
 
@@ -7566,13 +7594,13 @@ a.anchor-link {
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>Hostname gpu253.corp.yodao.com not defined in /conf/study_paths/study_paths.yaml. Using default paths.
+<pre>Hostname gpu226.corp.yodao.com not defined in /conf/study_paths/study_paths.yaml. Using default paths.
 </pre>
 </div>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=5f4fb9b1-fc34-4def-bf3d-34733363c45b">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7619,17 +7647,17 @@ a.anchor-link {
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=982fdef7-4954-4ac2-836a-3b2785f90d71">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><code>bm.studies.from_selection</code>为四种不同的数据集定制了独特的加载方式。我们将第一个样本作为观察的对象。前10个对象被打印，包含了说话人，会话和聆听的故事信息。</p>
+<p><code>bm.studies.from_selection</code> has customized loading methods for four different datasets. We will focus on the first sample for observation. The first 10 objects are printed, including speaker, session, and story information for listening.</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=7875ee84-2410-40f9-b81e-61a93ecae4bc">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7650,13 +7678,14 @@ a.anchor-link {
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Extracting SQD Parameters from /ssd9/exec/penglinkai/brainmagick/data/gwilliams2022/download/sub-01/ses-0/meg/sub-01_ses-0_task-0_meg.con...
+<pre>bids_path: /ssd3/other/penglinkai01/brainmagick/data/gwilliams2022/download/sub-01/ses-0/meg/sub-01_ses-0_task-0_meg.con
+Extracting SQD Parameters from /ssd3/other/penglinkai01/brainmagick/data/gwilliams2022/download/sub-01/ses-0/meg/sub-01_ses-0_task-0_meg.con...
 Creating Raw.info structure...
 Setting channel info structure...
 Creating Info structure...
 Ready.
-Reading events from /ssd9/exec/penglinkai/brainmagick/data/gwilliams2022/download/sub-01/ses-0/meg/sub-01_ses-0_task-0_events.tsv.
-Reading channel info from /ssd9/exec/penglinkai/brainmagick/data/gwilliams2022/download/sub-01/ses-0/meg/sub-01_ses-0_task-0_channels.tsv.
+Reading events from /ssd3/other/penglinkai01/brainmagick/data/gwilliams2022/download/sub-01/ses-0/meg/sub-01_ses-0_task-0_events.tsv.
+Reading channel info from /ssd3/other/penglinkai01/brainmagick/data/gwilliams2022/download/sub-01/ses-0/meg/sub-01_ses-0_task-0_channels.tsv.
 The stimulus channel "STI 014" is present in the raw data, but not included in channels.tsv. Removing the channel.
 NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
 NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
@@ -7666,7 +7695,7 @@ NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>/ssd9/exec/penglinkai/brainmagick/bm/studies/gwilliams2022.py:105: RuntimeWarning: The unit for channel(s) MISC 001, MISC 002, MISC 003, MISC 004, MISC 005, MISC 006, MISC 007, MISC 008, MISC 009, MISC 010, MISC 011, MISC 012, MISC 013, MISC 014, MISC 015, MISC 016, MISC 017, MISC 018, MISC 019, MISC 020, MISC 021, MISC 022, MISC 023, MISC 024, MISC 025, MISC 026, MISC 027, MISC 028, MISC 029, MISC 030, MISC 031, MISC 032 has changed from V to NA.
+<pre>/ssd3/other/penglinkai01/brainmagick/bm/studies/gwilliams2022.py:106: RuntimeWarning: The unit for channel(s) MISC 001, MISC 002, MISC 003, MISC 004, MISC 005, MISC 006, MISC 007, MISC 008, MISC 009, MISC 010, MISC 011, MISC 012, MISC 013, MISC 014, MISC 015, MISC 016, MISC 017, MISC 018, MISC 019, MISC 020, MISC 021, MISC 022, MISC 023, MISC 024, MISC 025, MISC 026, MISC 027, MISC 028, MISC 029, MISC 030, MISC 031, MISC 032 has changed from V to NA.
   raw = read_raw_bids(bids_path)  # FIXME this is NOT a lazy read
 </pre>
 </div>
@@ -7722,7 +7751,7 @@ NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=260a11c9-cd67-4957-9a33-65ab34fe6645">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7749,17 +7778,17 @@ NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=6fad4965-1a56-445e-8933-546aa7fc766a">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>样本<code>01_session0_story0</code>的信息被打印（见<a href="https://github.com/mne-tools/mne-python">mne-python</a>的<code>mne_info</code>）。它拥有208个通道和1000hz的采样率。记录的信号形状显示它拥有396秒（396000/1000）的持续时间。</p>
+<p>The information of sample <code>01_session0_story0</code> is printed (see <code>mne_info</code> in <a href="https://github.com/mne-tools/mne-python">mne-python</a>). It has 208 channels and a sampling rate of 1000Hz. The recorded signal shape indicates a duration of 396 seconds (396000/1000).</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=03d62a68-33ae-4cbc-9246-8a7f6fa02e6c">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7879,7 +7908,7 @@ NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
 <td>23.506</td>
 <td>stimuli/audio/lw1_0.0.wav</td>
 <td>95.881678</td>
-<td>/ssd9/exec/penglinkai/brainmagick/data/gwillia...</td>
+<td>/ssd3/other/penglinkai01/brainmagick/data/gwil...</td>
 <td>NaN</td>
 <td>NaN</td>
 <td>...</td>
@@ -7950,7 +7979,7 @@ NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=7fa9bb56-4b02-4b16-a8dd-8da609cdd4b3">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7978,17 +8007,17 @@ NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=7c988d69-11f4-45f1-b7fa-ae4f64908717">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>记录的<code>events()</code>包含了刺激时间的开始结束时间，音素，单词等信息。其中<code>kind</code>表示了刺激类型是单词，音素还是句子。uid可以认为是说话人，这将会是非常重要的属性。</p>
+<p>The recording's <code>events()</code> include the start and end times of stimulus, phonemes, words, and other information. Among them, <code>kind</code> indicates the type of stimulus, whether it is a word, phoneme, or sentence. <code>uid</code> can be considered as the speaker id, which will be a crucial attribute later.</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=0a4c82cd-f40d-4422-9d88-ec7cb2d1ebfe">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8324,18 +8353,18 @@ NOTE: pick_types() is a legacy function. New code should use inst.pick(...).
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=550adbda-a411-4b8c-8e67-ce68e2dce28e">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>上面的代码筛选出了所有的单词，对于<code>sample_recording</code>来说，它拥有3165个单词。最后的单词是从362.817秒开始的，并且持续了0.34秒。</p>
-<p>在预处理阶段，脑电记录被重新采样（julius.ResampleFrac()）至120hz。数据的预处理步骤被缓存到磁盘中以提高效率，_cache_folde被指定为数据的储存地址。最后它的形状大小为<code>(208, 47520)</code></p>
+<p>The above code filters out all the words, and for the <code>sample_recording</code>, it contains 3165 words. The last word starts at 362.817 seconds and lasts for 0.34 seconds.
+During the preprocessing stage, the EEG recording is resampled to 120Hz using <code>julius.ResampleFrac()</code>. The preprocessing steps of the data are cached to the disk for efficiency, where <code>_cache_folder</code> specified as the storage location for the data. Finally, its shape is (208, 47520).</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=f8685898-eb51-4d31-a87d-673e06ccbc59">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8424,7 +8453,7 @@ Ready.
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=dc13e203-a752-4930-96b4-2fd40579bb2f">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8451,17 +8480,17 @@ Ready.
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=2ec51f59-317f-4e33-878b-cdbde97a743a">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>现在我们用这条记录来构造模型的输入。显然对于一条30多秒的记录，多个样本可以被提取。事件类型为<code>block</code>被用于切割片段。然后<code>merge_blocks</code>将持续时长不足<code>min_block_duration</code>的block进行拼接。然后随机的按照7，2，1的比例将数据分成训练，开发和测试的部分。<code>preprocessed</code>则是实现了上面提到的重新采样步骤。这里应用了对测试集的处理步骤：测试集的每个单词选择一个3秒的片段（从-500毫秒到2.5秒），也就是<code>tmin</code>, <code>tmax</code>。</p>
+<p>Now we use this recording to construct the input for the model. Obviously, for a recording of over 30 seconds, multiple samples can be extracted. The event type <code>block</code> is used to segment the fragments. Then, the <code>merge_blocks</code> function concatenates blocks with a duration shorter than <code>min_block_duration</code>. Afterwards, the data is randomly divided into train, develop, and test subsets in a ratio of 7:2:1. The <code>preprocessed</code> function implements the aforementioned resampling step. Here, the processing steps for the test set are additionally applied: a 3-second segment (from -500 milliseconds to 2.5 seconds) is selected for each word in the test set. Note that <code>tmin</code>is -500ms and <code>tmax</code> is 2.5s.</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=1e1bc70a-f2f2-4cab-9ce7-689ff303edaa">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8534,14 +8563,15 @@ Mask(processed): 104
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=24268817-4001-4ef7-9d4d-21d82edbe66d">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>我们选取的样本拥有396秒，按照3s的间隔，得到131个可能的起始位置（见下方的<code>times</code>）。不过这些点需要属于某个block区间来保证该部分内容拥有完整的单词，也就是说，起始时间被包括在某个block里面，同时结束为止也需要被包括在同一个个block里面。最后104个样本被得到。下面用一个例子展示了这个过程：</p>
-<p>对于第一个start_stops(0.0, 29.756)，</p>
+<p>The selected sample has a duration of 396 seconds. With a 3-second interval, theoretically, we can obtain 131 possible starting positions (see "times" below). However, these points need to belong to a block interval to ensure that this portion contains complete words, i.e. the starting time should be included in a block, and the ending time should also be included in the same block. Finally, 104 samples are obtained. The following results demonstrates this process:</p>
+<p>For the first sample, it belongs to the start_stops interval (0.0, 29.756):</p>
 <pre><code>times=
 [  0.   3.   6.   9.  12.  15.  18.  21.  24.  27.  30.  33.  36.  39.
   42.  45.  48.  51.  54.  57.  60.  63.  66.  69.  72.  75.  78.  81.
@@ -8593,11 +8623,11 @@ Mask(processed): 104
  False False False False False False False False False False False False
  False False False False False False False False False False False False]
 </code></pre>
-<p>最后，对于(0.0, 29.756)，时间起始位置为3.   6.   9.  12.  15.  18.  21.  24.的位置可以认为是合法的测试片段。我们从uid可以看到这句话的大概内容。相关的音频切片也展示在下方。</p>
+<p>Finally, for the interval (0.0, 29.756), the time starting positions at 3, 6, 9, 12, 15, 18, 21, and 24 can be considered as valid test segments. From the <code>uid</code>, we can get an idea of the approximate content of this sentence. The corresponding audio clips are also shown below.</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=d6a47cd0-a161-4796-8e0e-bcb8277e347c">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8683,7 +8713,7 @@ Mask(processed): 104
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=18af6c48-5d49-4c1c-8bd3-824f879c027a">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8714,7 +8744,7 @@ Mask(processed): 104
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=bbd52713-4347-4c46-aaa0-4d7079e2e94e">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8759,7 +8789,8 @@ Mask(processed): 104
 </li></ul>
 </div>
 </div>
-<p>为了仔细地了解这些方法的具体细节以及它们设计的初衷，我使用一个来自数据集的样本，具体的说，一个语音音频和对应的脑电记录数据对$(X, Y)$，进行推理。因为M/EEG信号可能非常嘈杂，提取有用信息是十分困难的任务。下面的代码仔细地追踪数据的矩阵和逻辑运算，以恢复出论文中所提到的细节。这些细节可能是成功的关键。</p>
+<p>The above image shows the model used, with the problem formalization and its contributions indicated on the right side.</p>
+<p>To get a detailed understanding of these methods and corresponding intentions, I performed inference on a sample from the dataset, specifically $(X, Y)$ denotes a speech audio and its corresponding EEG data pair. Extracting useful information from M/EEG signals can be a challenging task due to the potential noise. The following code carefully traces the matrices and logical operations of the data, which may contribute to the success of the methods.</p>
 <h3 id="Wav2vec-2.0">Wav2vec 2.0<a class="anchor-link" href="#Wav2vec-2.0">¶</a></h3><p>Wav2vec 2.0 is a self-supervised speech model, learning deep representations from unlabeled speech waveforms. The working process of wav2vec 2.0 can be described in the following steps:</p>
 <p><strong>Feature Extraction</strong>: First, the model takes in an original speech waveform $S \in \mathbb{R}^{T'}$, where $T'$ is the number of time steps. The CNN feature extractor $f_{\text{feat}}$ transforms this waveform into a series of latent representations $C \in \mathbb{R}^{F\times T}$, where $F$ is hidden dimension.</p>
 <p><strong>Context Network</strong>: Then, the context network $f_{\text{context}}$ takes these latent representations and uses a self-attention mechanism to capture the relationships between them. The output of this network is a series of context representations $Y \in \mathbb{R}^{F\times T}$.</p>
@@ -8769,11 +8800,11 @@ $$
 $$
 After training, wav2vec 2.0 can generate robust representations $Y$, which can be used for various downstream tasks, such as speech recognition or speech translation. Here, authors use the <code>wav2vec2-large-xlsr-53</code>, which has been pre-trained on 56k hours of speech from 53 different languages. During the training process, the parameters of the Wav2vec 2.0 model are not updated.</p>
 <h3 id="Brain-module">Brain module<a class="anchor-link" href="#Brain-module">¶</a></h3><p>For the brain module, the paper introduces a deep neural network ${f}_\mathrm{clip}$, input with raw M/EEG times series $X$ and a one-hot-encoding of the corresponding subject $s$, and outputs the latent brain representation $Z$, with the same sample rate as $X$.</p>
-<p>Due to the complexity of data processing, we still have a long way to go before reaching familiar code such as <code>torch.module</code> and its <code>forward()</code> function for brain module. For this part, we are going to understand its constructure through experiments. You can obtain the pre-trained model checkpoint from this <a href="https://github.com/facebookresearch/brainmagick/issues/2">github issue</a> and place it in the relative path: <code>outputs/grids/base/97d170e1</code>. This is the default location.</p>
+<p>Due to the complexity of data processing, we still have a long way to go before reaching familiar code such as <code>torch.module</code> and its <code>forward()</code> function for brain module. For this part, we are going to understand its constructure through experiments. You can obtain the pre-trained model checkpoint from this <a href="https://github.com/facebookresearch/brainmagick/issues/2">github issue</a> and place it in the relative path: <code>outputs/grids/base/97d170e1</code> and <code>outputs/xps/97d170e1</code>. This is the default location.</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=d386bb7b-6412-4016-aede-aa1a99ad81a3">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8787,7 +8818,7 @@ After training, wav2vec 2.0 can generate robust representations $Y$, which can b
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=cf5002c3-cb3b-451d-bd46-8fa05bf421ed">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8798,8 +8829,7 @@ After training, wav2vec 2.0 can generate robust representations $Y$, which can b
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Loading solver </span><span class="si">{</span><span class="n">sig</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
 <span class="n">mne</span><span class="o">.</span><span class="n">set_log_level</span><span class="p">(</span><span class="kc">False</span><span class="p">)</span>
 <span class="n">flashy</span><span class="o">.</span><span class="n">logging</span><span class="o">.</span><span class="n">setup_logging</span><span class="p">(</span><span class="n">with_file_log</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
-<span class="n">override_cfg</span> <span class="o">=</span> <span class="p">{}</span>
-<span class="n">solver</span> <span class="o">=</span> <span class="n">play</span><span class="o">.</span><span class="n">get_solver_from_sig</span><span class="p">(</span><span class="n">sig</span><span class="p">,</span> <span class="n">override_cfg</span><span class="o">=</span><span class="n">override_cfg</span><span class="p">)</span>
+<span class="n">solver</span> <span class="o">=</span> <span class="n">play</span><span class="o">.</span><span class="n">get_solver_from_sig</span><span class="p">(</span><span class="n">sig</span><span class="p">,</span> <span class="n">override_cfg</span><span class="o">=</span><span class="p">{})</span>
 <span class="n">solver</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">eval</span><span class="p">()</span>
 <span class="n">solver</span><span class="o">.</span><span class="n">loss</span><span class="o">.</span><span class="n">eval</span><span class="p">()</span>
 </pre></div>
@@ -8813,17 +8843,26 @@ After training, wav2vec 2.0 can generate robust representations $Y$, which can b
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>xp._argv_cache: /ssd3/other/penglinkai01/brainmagick/outputs/xps/97d170e1/.argv.json
+</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>[<span class="ansi-cyan-fg">11-12 20:55:15</span>][<span class="ansi-blue-fg">bm.play</span>][<span class="ansi-green-fg">INFO</span>] - Loading solver from XP 97d170e1. Overrides used: ['dset.selections=[gwilliams2022]']
-[<span class="ansi-cyan-fg">11-12 20:55:15</span>][<span class="ansi-blue-fg">bm._env</span>][<span class="ansi-yellow-fg">WARNING</span>] - Hostname gpu253.corp.yodao.com not defined in /conf/study_paths/study_paths.yaml. Using default paths.
-[<span class="ansi-cyan-fg">11-12 20:55:15</span>][<span class="ansi-blue-fg">bm.dataset</span>][<span class="ansi-yellow-fg">WARNING</span>] - Requested 1000 recordings but only found 196
-[<span class="ansi-cyan-fg">11-12 20:55:26</span>][<span class="ansi-blue-fg">bm.dataset</span>][<span class="ansi-green-fg">INFO</span>] - Loading Subjects | 39/196 | 5.48 it/sec
-[<span class="ansi-cyan-fg">11-12 20:55:33</span>][<span class="ansi-blue-fg">bm.dataset</span>][<span class="ansi-green-fg">INFO</span>] - Loading Subjects | 78/196 | 5.70 it/sec
-[<span class="ansi-cyan-fg">11-12 20:55:40</span>][<span class="ansi-blue-fg">bm.dataset</span>][<span class="ansi-green-fg">INFO</span>] - Loading Subjects | 117/196 | 5.65 it/sec
-[<span class="ansi-cyan-fg">11-12 20:55:46</span>][<span class="ansi-blue-fg">bm.dataset</span>][<span class="ansi-green-fg">INFO</span>] - Loading Subjects | 156/196 | 5.71 it/sec
-[<span class="ansi-cyan-fg">11-12 20:55:53</span>][<span class="ansi-blue-fg">bm.dataset</span>][<span class="ansi-green-fg">INFO</span>] - Loading Subjects | 195/196 | 5.68 it/sec
-[<span class="ansi-cyan-fg">11-12 20:55:53</span>][<span class="ansi-blue-fg">bm.dataset</span>][<span class="ansi-green-fg">INFO</span>] - # Examples (train | valid | test): 203152 | 35156 | 69972
-[<span class="ansi-cyan-fg">11-12 20:55:55</span>][<span class="ansi-blue-fg">bm.train</span>][<span class="ansi-green-fg">INFO</span>] - Model hash: ed97b0fbdffe06faf696d2eecaacb57b143fd68d
+<pre>[<span class="ansi-cyan-fg">11-14 22:38:21</span>][<span class="ansi-blue-fg">bm.play</span>][<span class="ansi-green-fg">INFO</span>] - Loading solver from XP 97d170e1. Overrides used: ['dset.selections=[gwilliams2022]']
+[<span class="ansi-cyan-fg">11-14 22:38:21</span>][<span class="ansi-blue-fg">bm._env</span>][<span class="ansi-yellow-fg">WARNING</span>] - Hostname gpu226.corp.yodao.com not defined in /conf/study_paths/study_paths.yaml. Using default paths.
+[<span class="ansi-cyan-fg">11-14 22:38:21</span>][<span class="ansi-blue-fg">bm.dataset</span>][<span class="ansi-yellow-fg">WARNING</span>] - Requested 1000 recordings but only found 196
+[<span class="ansi-cyan-fg">11-14 22:38:33</span>][<span class="ansi-blue-fg">bm.dataset</span>][<span class="ansi-green-fg">INFO</span>] - Loading Subjects | 39/196 | 5.48 it/sec
+[<span class="ansi-cyan-fg">11-14 22:38:39</span>][<span class="ansi-blue-fg">bm.dataset</span>][<span class="ansi-green-fg">INFO</span>] - Loading Subjects | 78/196 | 5.71 it/sec
+[<span class="ansi-cyan-fg">11-14 22:38:46</span>][<span class="ansi-blue-fg">bm.dataset</span>][<span class="ansi-green-fg">INFO</span>] - Loading Subjects | 117/196 | 5.68 it/sec
+[<span class="ansi-cyan-fg">11-14 22:38:53</span>][<span class="ansi-blue-fg">bm.dataset</span>][<span class="ansi-green-fg">INFO</span>] - Loading Subjects | 156/196 | 5.75 it/sec
+[<span class="ansi-cyan-fg">11-14 22:38:59</span>][<span class="ansi-blue-fg">bm.dataset</span>][<span class="ansi-green-fg">INFO</span>] - Loading Subjects | 195/196 | 5.74 it/sec
+[<span class="ansi-cyan-fg">11-14 22:38:59</span>][<span class="ansi-blue-fg">bm.dataset</span>][<span class="ansi-green-fg">INFO</span>] - # Examples (train | valid | test): 203152 | 35156 | 69972
+[<span class="ansi-cyan-fg">11-14 22:39:01</span>][<span class="ansi-blue-fg">bm.train</span>][<span class="ansi-green-fg">INFO</span>] - Model hash: ed97b0fbdffe06faf696d2eecaacb57b143fd68d
+/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/site-packages/flashy/loggers/tensorboard.py:47: UserWarning: tensorboard package was not found: use pip install tensorboard
+  warnings.warn("tensorboard package was not found: use pip install tensorboard")
 </pre>
 </div>
 </div>
@@ -8836,17 +8875,17 @@ After training, wav2vec 2.0 can generate robust representations $Y$, which can b
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=3695c882-f767-4eaa-b6c4-faa126ce986a">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>在这框架中，sigature可以唯一地定位一个训练过程。通过它加载的solver聚合了dataset, model, optimizer, loss等组件。几乎整个实验信息几乎都被保存了下来（见上面的单元格），包括使用的数据集<code>dset.selections</code>，训练开发和测试用的样本数量。接下来，我们直接加载dataloader，通过一个batch查看模型的推理细节。</p>
+<p>In this framework, a <code>signature</code> can uniquely identify a training process. The <code>solver</code> loaded through it aggregates components such as the dataset, model, optimizer, and loss. Almost all the experimental information is preserved (as seen in the above cell), including the dataset used (dset.selections) and the number of samples for train, develop, and test. Next, we will directly load the dataloader and infer model using a batch.</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=992e0f96-05ce-4697-b79b-b3e9e29fbe89">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8878,17 +8917,17 @@ After training, wav2vec 2.0 can generate robust representations $Y$, which can b
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ba66858d-97f2-4806-a8cd-4f4c526934c9">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>通过ConcatDataset将solver中保存的测试数据集拼接起来，然后使用dataloader将其封装起来。</p>
+<p>By using the ConcatDataset, we concatenate the test datasets stored in the solver, and then wrap them using the pytorch dataloader.</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=81301506-674f-45d3-abbd-cef95faf0c89">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8924,14 +8963,14 @@ batch.features.shape: torch.Size([8, 1025, 361])
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=323238e3-1e07-4c6a-ae65-c720684974d7">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><code>meg</code>和<code>subject_index</code>是Brain module的输入。<code>subject_index</code>的范围是<code>[0,196]</code>,它代表当前记录在数据集中的位置，数据长度和<code>batch_size</code>一致。它有点类似于TTS中的说话人表示，代表着整个记录的某些整体特征。在这里<code>meg</code>的大小是<code>[B,C,T]</code>.<code>T=361</code>实际上是因为每个片段为3秒，采样率为120hz。<code>_event_lists</code>也包含在内，这有助于恢复原始的信息。</p>
-<p>然后你会发现<code>features</code>的形状你非常的熟悉，是的，他就是<code>Wav2Vec2.0</code>提取的特征（即便它看起来多了一个特征 1025 v.s. 1024）。我好奇它是从哪里跑出来的。实际上，作者把这部分的计算缓存了起来。如果在本地上运行了训练程序，我们会在诸如<code>cache/Wav2VecEmbedding</code>的路径中找到npy文件。里面储存了预先计算好（在第一次运行的时候）的特征。然后<code>SegmentDataset</code>会在<code>__getitem__()</code>的时候把它再次加载到内存中。为了找到了wav2vec2.0是如何被调用的，我删除/移动了缓存目录并且沿着代码的路径找到了现场。</p>
+<p><code>meg</code> and <code>subject_index</code> are inputs to the Brain module. The range of <code>subject_index</code> is <code>[0, 196]</code>, representing the current position in the dataset. Its length is consistent with the <code>batch_size</code>. <em>It is somewhat similar to the speaker representation in TTS, representing certain overall characteristics of the entire recording.</em> In this case, the size of <code>meg</code> is <code>[B, C, T]</code>. <code>T=361</code> is actually because each segment is 3 seconds long, with a sampling rate of 120Hz. <code>_event_lists</code> are also included, which helps in recovering the original information.</p>
+<p>Then, you will notice that the shape of the <code>features</code> is very familiar. Yes, it is the feature extracted by <code>Wav2Vec2.0</code> (even though it seems to have one extra feature, 1025 vs 1024). I was curious about where it came from. Actually, the authors have cached this part of the computation. If you have run the training program locally, you will find npy files in paths like <code>cache/Wav2VecEmbedding</code>. These files store pre-computed (during the first run) features. Then, the <code>SegmentDataset</code> will load it into memory again in the <code>__getitem__()</code> function. To find how wav2vec2.0 was invoked, I deleted/moved the cache directory and traced the code path.</p>
 <div class="highlight"><pre><span></span><span class="n">SegmentDataset</span><span class="o">.</span><span class="fm">__getitem__</span><span class="p">()</span> <span class="o">&gt;</span> 
     <span class="bp">self</span><span class="o">.</span><span class="n">_get_feature</span><span class="p">(</span><span class="n">index</span><span class="p">)</span> <span class="o">&gt;</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">features</span><span class="p">(</span><span class="n">start</span><span class="p">,</span> <span class="n">stop</span><span class="p">)</span> <span class="o">&gt;</span>
@@ -8941,7 +8980,7 @@ batch.features.shape: torch.Size([8, 1025, 361])
                         <span class="bp">self</span><span class="o">.</span><span class="n">_get_cached_tensor</span><span class="p">()</span> <span class="o">&gt;</span>
                             <span class="bp">self</span><span class="o">.</span><span class="n">_compute_hidden_states</span> <span class="o">&gt;</span>
 </pre></div>
-<p>在这里，我们可以看到熟悉的代码:读取语音和模型推理。</p>
+<p>Here, we can see familiar code: reading the speech and forward model.</p>
 <div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">_compute_hidden_states</span><span class="p">(</span>
         <span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">filepath</span><span class="p">:</span> <span class="n">Path</span><span class="p">,</span> <span class="n">start</span><span class="p">:</span> <span class="nb">float</span><span class="p">,</span> <span class="n">stop</span><span class="p">:</span> <span class="nb">float</span><span class="p">,</span>
         <span class="n">layers</span><span class="p">:</span> <span class="n">tp</span><span class="o">.</span><span class="n">Optional</span><span class="p">[</span><span class="n">tp</span><span class="o">.</span><span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">]]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">torch</span><span class="o">.</span><span class="n">Tensor</span><span class="p">:</span>
@@ -8958,11 +8997,11 @@ batch.features.shape: torch.Size([8, 1025, 361])
         <span class="n">out</span> <span class="o">=</span> <span class="n">out</span><span class="p">[</span><span class="n">layers</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">out</span><span class="o">.</span><span class="n">detach</span><span class="p">()</span><span class="o">.</span><span class="n">cpu</span><span class="p">()</span><span class="o">.</span><span class="n">clone</span><span class="p">()</span><span class="o">.</span><span class="n">numpy</span><span class="p">()</span>
 </pre></div>
-<p>其中layers指定了Transformer的哪些层的表示会被进行平均。实际上，<code>Wav2VecTransformer</code>在<code>datasets</code>中被认为是特征的提取器。因为训练不更新这部分的参数，这是一个在实践上很方便的设计。</p>
+<p>The <code>layers</code> parameter specifies which layers of the Transformer will be averaged. In practice, <code>Wav2VecTransformer</code> is considered as a feature extractor in the <code>datasets</code>. This is a convenient design because the parameters of this part are not updated during training.</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=d0fde1e1-ced4-4ae0-aede-cba8659f3e1a">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9001,17 +9040,17 @@ Transformer layers used for average: [14, 15, 16, 17, 18]
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=f4f53204-b0d7-46e1-aafa-1954ad7ebe06">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>可以看到feature_builder储存了<code>Wav2VecTransformer</code>和<code>WordHash</code>，并且代码只使用了<code>Wav2VecTransformer</code>。features的形状符合我们的预期：1024。并且batch的特征被修正了。不过使用的输出层好像和论文说明的不一致。下方的代码打印了<code>Wav2Vec2.0</code>的模型。</p>
+<p>It can be seen that <code>feature_builder</code> stores both <code>Wav2VecTransformer</code> and <code>WordHash</code>, but the code only uses <code>Wav2VecTransformer</code>. The shape of <code>features</code> is as expected: 1024 and batch features are also corrected by <code>replace</code>. However, it seems that the used output layer is inconsistent with the one described in the paper (Paper said they used the last four layers). The code below prints the model of Wav2Vec2.0.</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=ac30bee1-d4f7-449a-ae52-091993efe19e">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9029,14 +9068,6 @@ Transformer layers used for average: [14, 15, 16, 17, 18]
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>[<span class="ansi-cyan-fg">11-12 20:55:58</span>][<span class="ansi-blue-fg">torch.distributed.nn.jit.instantiator</span>][<span class="ansi-green-fg">INFO</span>] - Created a temporary directory at /tmp/tmpcey5qujk
-[<span class="ansi-cyan-fg">11-12 20:55:58</span>][<span class="ansi-blue-fg">torch.distributed.nn.jit.instantiator</span>][<span class="ansi-green-fg">INFO</span>] - Writing /tmp/tmpcey5qujk/_remote_module_non_scriptable.py
-</pre>
-</div>
-</div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
 <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[18]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
@@ -9100,25 +9131,25 @@ Transformer layers used for average: [14, 15, 16, 17, 18]
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=3c71fa14-ed8f-4bf6-b4dd-931b4b432387">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>M/EEG data can suffer from large artifacts. Baseline correction 和 <a href="https://github.com/scikit-learn/scikit-learn/blob/be7633dbe/sklearn/preprocessing/data.py#L1055">sklearn.preprocessing.RobustScaler</a> 被使用。</p>
+<p>M/EEG data can suffer from large artifacts. Baseline correction and <a href="https://github.com/scikit-learn/scikit-learn/blob/be7633dbe/sklearn/preprocessing/data.py#L1055">sklearn.preprocessing.RobustScaler</a> are used.</p>
 <ul>
-<li><p>Baseline correction: 在<code>bm.dataset._DatasetFactory.apply()</code>中的<code>mne.Epochs</code>进行初始化时，<code>baseline correction</code>已经被执行。Baseline Correction is applied to each epoch and channel individually. The mean signal of the baseline period is calculated. Then subtract this mean from the entire epoch.</p>
+<li><p>Baseline correction: Baseline correction is performed when initializing <code>mne.Epochs</code> in <code>bm.dataset._DatasetFactory.apply()</code>. Baseline correction is applied to each epoch and channel individually. The mean signal of the baseline period is calculated and subtracted from the entire epoch.</p>
 </li>
-<li><p>RobustScaler: This Scaler removes the median and scales the data based on the quantile range (usually IQR: Interquartile Range). It is commonly used for standardizing datasets in machine learning, where outliers can negatively affect mean and variance calculations. Instead, the median and interquartile range are utilized for better results. 这个缩放是在样本级别上进行的，所以它的数量等于recording的数量（196）。</p>
+<li><p>RobustScaler: This scaler removes the median and scales the data based on the interquartile range (usually IQR). It is commonly used for standardizing datasets in machine learning, especially when outliers can affect mean and variance calculations. Instead of using mean and variance, the median and interquartile range are utilized for better results. This scaling is performed at the sample level, so the number of scalers is equal to the number of recordings (196).</p>
 </li>
 </ul>
-<p>对于wav2vec2.0 feature，它的数据范围则无须太过于担心，StandardScaler(就和它的名字一样)就足够。</p>
+<p>For the Wav2Vec2.0 features, there is no need to worry too much about the data range. Using <code>StandardScaler</code> is sufficient, as its name suggests.</p>
 <p>(See Section 2.4 Preprocessing and Section A.2 Impact of clamping)</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=7db851e7-e822-489f-a0c8-53ab2ea0bf05">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9134,7 +9165,7 @@ Transformer layers used for average: [14, 15, 16, 17, 18]
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=a3e80b1a-4b8b-4414-9442-2c96e5f6feba">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9160,23 +9191,23 @@ Transformer layers used for average: [14, 15, 16, 17, 18]
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre># of meg_scalers: 196
- Type of meg_scalers: &lt;bm.norm.RobustScaler object at 0x7f157f572bb0&gt;
+ Type of meg_scalers: &lt;bm.norm.RobustScaler object at 0x7f25a7e9de20&gt;
  Clamp of meg_scalers: 20.0
 # of feature_scalers: 1
- Type of feature_scalers: &lt;bm.norm.StandardScaler object at 0x7f157f514340&gt;
+ Type of feature_scalers: &lt;bm.norm.StandardScaler object at 0x7f25a50e58b0&gt;
 </pre>
 </div>
 </div>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=d8ad4b95-feec-4d88-8e8c-86e09816c883">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>上面展示了相关的信息。注意到Clamp of meg_scalers的值是20，它按照<code>torch.Tensor::clamp_()</code>方式进行。这意味着 values greater than 20 standard deviations。This operation can minimize the impact of large outlier samples. 作者还对这个数值进行了仔细的研究（See Section A.2 Impact of clamping）。从实验结果看来，Clamp对于处理M/EEG是必要的措施。</p>
+<p>The information about <code>RobustScaler</code> and <code>StandardScaler</code> is shown above. It is noted that the value of Clamp of <code>meg_scalers</code> is 20, which follows the <code>torch.Tensor::clamp_()</code> method. This means that values greater than 20 standard deviations are clamped. This operation can minimize the impact of large outlier samples. The authors have also carefully studied this value (See Section A.2 Impact of clamping). <strong>From the experimental results, it appears that Clamp is a necessary for handling M/EEG data.</strong></p>
 <table>
 <thead>
 <tr>
@@ -9214,7 +9245,7 @@ Transformer layers used for average: [14, 15, 16, 17, 18]
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=3e197fb7-7596-4dba-a4b4-24600288d334">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9243,7 +9274,7 @@ Transformer layers used for average: [14, 15, 16, 17, 18]
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=bfb69c5e-36af-4259-974b-fa7418aec9ce">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9254,7 +9285,7 @@ Transformer layers used for average: [14, 15, 16, 17, 18]
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=5caee78b-b1dc-4853-a2d5-5e21cf237d3b">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9262,12 +9293,12 @@ Transformer layers used for average: [14, 15, 16, 17, 18]
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <hr/>
 <p style="padding-left:0px;margin-bottom: 0;margin-top: 0"><img alt="No description has been provided for this image" src="images/fig2.png" style="border: 0;" width="800"/></p>
-<p>很高兴我们到达了这里，我们开始查看Brain module的几个部分（Part E in the picture）。请不要忘记<code>meg</code>和<code>subject_index</code>。</p>
+<p>I'm glad we've reached this point, and now let's take a look at several parts of the Brain module (Part E in the picture). Please don't forget about <code>meg</code> and <code>subject_index</code>, as they are the inputs to the module.</p>
 <h4 id="Spatial-attention">Spatial attention<a class="anchor-link" href="#Spatial-attention">¶</a></h4>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=a3855263-3bb1-4ab1-860b-bf02101cbe1a">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9290,7 +9321,7 @@ Transformer layers used for average: [14, 15, 16, 17, 18]
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=dd541cd4-dd57-48d6-8430-277a24b9d25a">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9324,16 +9355,15 @@ out.shape torch.Size([8, 270, 343])
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=efee4496-659b-456d-9765-ba7d1301c4b1">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>首先从<code>position_getter</code>开始。类<code>PositionGetter</code>里面包含了投射函数：<code>layout = mne.find_layout(info)</code>。This function uses a device-dependent surface designed to preserve the channel distances. Then the 3D sensor locations are first projected on a 2D plane. Their 2D positions are finally normalized to $[0, 1]$.</p>
-<p>在经过投射后，The brain data will be remapped onto D1 = 270 channels。在解剖平面上看，它这些位置似乎是‘均匀’分布的。显然并不是每个位置都是处理语音感知的重要部分，使用深度学习的一个重要概念“注意力”去自动捕获采样通道和空间映射后的通道之间的对应关系是很有希望的。</p>
-<p>借助空间位置信息，使用注意力将输入通道进行加权得到每个输出通道。</p>
-<p>具体地说，对于每一个通道$i$来说，他拥有一个位置$(x_i, y_i)$。假设当前处理的raw M/EEG times series 为 $X$, 它拥有$C$个通道。 对于每个输出通道$j\in\{1, \ldots, D_1\}$，spatial attention （SA）定义为：</p>
+<p>First, let's start with the <code>position_getter</code>. The <code>PositionGetter</code> class includes a projection function: <code>layout = mne.find_layout(info)</code>. This function uses a device-dependent surface designed to preserve the channel distances. Then, the 3D sensor locations are first projected onto a 2D plane. Their 2D positions are finally normalized to $[0, 1]$.</p>
+<p>After the projection, the brain data will be remapped onto <code>D1 = 270</code> channels. When viewed on the anatomical plane, these positions seem to be "uniformly" distributed. Obviously, not every position is an important part of speech perception. It is promising to use the important concept of <strong>attention</strong> in deep learning to automatically capture the correspondence between the sampled channels and the spatially mapped channels.</p>
+<p>With the help of spatial location information, attention is used to weight the input channels to obtain each output channel. Specifically, for each channel $i$, it has a position $(x_i, y_i)$. Let's assume that the current processed raw M/EEG time series is $X$, which has $C$ channels. For each output channel $j\in\{1, \ldots, D_1\}$, the spatial attention (SA) is defined as:</p>
 <p>$$
 \begin{equation}
     \mathrm{SA}(X)^{(j)} =  \frac{1}{\sum_{i=1}^{C} \mathrm{e}^{a_j(x_i, y_i)}}\left(
@@ -9341,15 +9371,15 @@ out.shape torch.Size([8, 270, 343])
     \right)
 \end{equation}
 $$</p>
-<p>输出通道的特征是由a softmax attention calculated over of $a_j(x, y)$ at each input position$(x_i,y_i)$:</p>
+<p>The features of the output channels are calculated by a softmax attention calculated over of $a_j(x, y)$ at each input position$(x_i,y_i)$:</p>
 <p>$$
 \begin{equation}
     a_j(x, y) = \sum_{k=1}^K\sum_{l=1}^K \mathrm{Re}(z_j^{(k, l)}) \cos\left(2 \pi (k x + l y)\right)  +\mathrm{Im}(z_j^{(k, l)}) \sin\left(2 \pi (k x + l y)\right).
 \end{equation}
 $$</p>
-<p>where $z_j \in \mathbb{C}^{K \times K}$ defines the Fourier space which has $K{=}32$ harmonics. Re()和Im()分别代表复数的实部和虚部.</p>
+<p>where $z_j \in \mathbb{C}^{K \times K}$ defines the Fourier space which has $K{=}32$ harmonics. <code>Re()</code> and <code>Im()</code> respectively represent the real part and imaginary part of a complex number. The following section demonstrates how to implement SA using code:</p>
 <hr/>
-<p><code>FourierEmb()</code>将<code>positions</code>作为输入</p>
+<p><code>FourierEmb()</code> is the implementation of SA. It takes <code>positions</code> as input and outputs <code>embedding</code>.</p>
 <div class="highlight"><pre><span></span><span class="c1"># following code is the same as `embedding = solver.model.merger.embedding(positions)`</span>
 <span class="kn">import</span> <span class="nn">math</span>
 <span class="n">n_freqs</span> <span class="o">=</span> <span class="p">(</span><span class="mi">2048</span> <span class="o">//</span> <span class="mi">2</span><span class="p">)</span><span class="o">**</span><span class="mf">0.5</span> <span class="c1"># 32</span>
@@ -9361,16 +9391,16 @@ $$</p>
 <span class="n">p_y</span> <span class="o">=</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">math</span><span class="o">.</span><span class="n">pi</span> <span class="o">*</span> <span class="n">freqs_y</span> <span class="o">/</span> <span class="n">width</span> <span class="c1"># torch.Size([32])</span>
 <span class="n">positions</span> <span class="o">=</span> <span class="n">positions</span><span class="p">[</span><span class="o">...</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="p">:]</span>
 <span class="n">loc</span> <span class="o">=</span> <span class="p">(</span><span class="n">positions</span><span class="p">[</span><span class="o">...</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span> <span class="o">*</span> <span class="n">p_x</span> <span class="o">+</span> <span class="n">positions</span><span class="p">[</span><span class="o">...</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span> <span class="o">*</span> <span class="n">p_y</span><span class="p">)</span><span class="o">.</span><span class="n">view</span><span class="p">(</span><span class="o">*</span><span class="n">O</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="c1"># torch.Size([8, 208, 32, 32]) -&gt; torch.Size([8, 208, 1024])</span>
-<span class="n">emb</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">cat</span><span class="p">([</span><span class="n">torch</span><span class="o">.</span><span class="n">cos</span><span class="p">(</span><span class="n">loc</span><span class="p">),</span><span class="n">torch</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">loc</span><span class="p">)],</span> <span class="n">dim</span><span class="o">=-</span><span class="mi">1</span><span class="p">)</span> <span class="c1"># torch.Size([8, 208, 2048])</span>
+<span class="n">embedding</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">cat</span><span class="p">([</span><span class="n">torch</span><span class="o">.</span><span class="n">cos</span><span class="p">(</span><span class="n">loc</span><span class="p">),</span><span class="n">torch</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">loc</span><span class="p">)],</span> <span class="n">dim</span><span class="o">=-</span><span class="mi">1</span><span class="p">)</span> <span class="c1"># torch.Size([8, 208, 2048])</span>
 </pre></div>
 <hr/>
-<p>heads的形状为<code>[B,O,C]</code>,其中$O=270$。</p>
+<p><code>heads</code> has the shape of <code>[B,O,C]</code>, where $O=270$. The <code>embedding</code> is multiplied with the spatial mapping heads to obtain the <code>scores</code>. These <code>scores</code> are then passed through <code>torch.softmax</code> to obtain the <code>weights</code>. The output, <code>out</code>, is the weighted sum of the <code>meg</code> feature map.</p>
 <p style="padding-left:0px;margin-bottom: 0;margin-top: 0"><img alt="No description has been provided for this image" src="images/fig_attention.png" style="border: 0;"/></p>
-<p>这个图片展示了注意力权重在二维空间上的分布。Red color indicate that the M/EEG sensors is, on average, associated with a higher spatial attention weight.</p>
+<p>This image displays the distribution of attention weights in a two-dimensional space. The red color indicates that, on average, the M/EEG sensors are associated with a higher spatial attention weight. We can see in <em>Gwilliams'</em> image (best performance) that the electrode signals on the left and right sides clearly have more informative content of interest.</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=a8ba624f-825e-416c-969b-c4929e08e945">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9400,33 +9430,22 @@ $$</p>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=9d086baa-3d78-4ebb-9923-c2fe6af2ee99">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>一层的1x1 convolution处理了映射后的大脑数据。</p>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Subject-Layer">Subject Layer<a class="anchor-link" href="#Subject-Layer">¶</a></h4><p>这一层拥有一个大小为<code>[270, 270, 27]</code>的参数表示。其中第一个数值270是输入通道的数量，第二个值270是输出通道的数量，第三个数值（对于数据集Gwilliams2022，是27，See Table 1）代表着<code>subject_id</code>的数量。</p>
-<p>这个结构是这个目的实现的基础：</p>
+<h4 id="Subject-Layer">Subject Layer<a class="anchor-link" href="#Subject-Layer">¶</a></h4><p>This layer has a parameter representation of size <code>[270, 270, 27]</code>. The first value, 270, represents the number of input channels, the second value, 270, represents the number of output channels, and the third value (27 for the Gwilliams2022 dataset, as stated in Table 1) represents the number of <code>subject_ids</code>.</p>
+<p>This structure serves as the foundation for achieving the following purpose:</p>
 <blockquote>
-<p>a single architecture trained across a large cohort of participants</p>
+<p>"A single architecture trained across a large cohort of participants."</p>
 </blockquote>
-<p>在前向计算的过程中，<code>subjects</code>指示了当前meg数据的说话人索引。这个索引对应的<code>[270,270]</code>的矩阵变换了输入的特征。这个操作可以认为加入了参与者的信息。</p>
+<p>During the forward computation, the <code>subjects</code> indicate the speaker index for the current MEG data. The <code>[270, 270]</code> matrix corresponding to this index transforms the input features. This operation can be seen as incorporating participant-specific information.</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=8ed900ad-83be-42f4-bff0-d81c45a4da3c">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9441,7 +9460,7 @@ $$</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=bde360d8-d4bf-4aad-a87b-1937b88c522d">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9468,19 +9487,18 @@ $$</p>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=91085d23-7420-4a1a-9e0e-54b5ab84c862">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Residual-dilated-convolutions">Residual dilated convolutions<a class="anchor-link" href="#Residual-dilated-convolutions">¶</a></h4><p>Residual dilated convolutions 是Brain Module的主要部分。在实现过程中，残差跳跃连接，批归一化和GELU激活函数被结合起来，用于提取M/EEG特征。
-一个需要注意的细节是：我们需要保持这部分的输出匹配上 the dimensionality of speech representations，以便进行对比损失的计算。
-下方打印了卷积层的细节：</p>
+<h4 id="Residual-dilated-convolutions">Residual dilated convolutions<a class="anchor-link" href="#Residual-dilated-convolutions">¶</a></h4><p>Residual dilated convolutions are the main component of the Brain Module. In the implementation, residual skip connections, batch normalization, and GELU activation function are combined to extract M/EEG features. One important detail to note is that we need to ensure that the output of this part matches the dimensionality of speech representations for computing the contrastive loss.</p>
+<p>Below are the details of the convolutional layer:</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=500db0b8-d27f-4741-8d20-af24eaaf30d3">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9503,7 +9521,7 @@ $$</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=e1c2c301-a0d4-4cf3-ab49-2a5e7e360ed0">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9611,7 +9629,7 @@ $$</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=8ef3e8d8-21c2-4a10-81fb-568ad3ef2358">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9626,14 +9644,14 @@ $$</p>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=de5db356-1155-4b16-94b2-b135e07bb14d">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="CLIP-loss">CLIP loss<a class="anchor-link" href="#CLIP-loss">¶</a></h3><p>我们在得到语音和对应的大脑信号的表示后，我们可以在它们之间建立映射关系。一个经典的方式是选择回归进行拟合。不过按照作者们推测，回归可能是一种无效的损失函数，因为它偏离了最终的目标，即需要最大程度地区分不同的语音片段。事实上，回归损失的设计隐含着：Mel频谱图的所有维度同样重要，并且它们的尺度接近。类似于均方误差的回归损失倾向于使模型同样很好地预测低频和高频，即使（1）某些频率（例如非常低的频率）可能与语音无关，（2）某些频率的变化幅度可能比其他频率要低得多。</p>
-<p>在前面的步骤中，极端的偏离值已经被去除，归一化操作被精细地设计。最后，作者选择了对比性损失作为模型的训练目标，让模型自然倾向于关注重要的信息维度，并适当地缩放它们。</p>
+<h3 id="CLIP-loss">CLIP loss<a class="anchor-link" href="#CLIP-loss">¶</a></h3><p>After obtaining representations of speech and corresponding brain signals, we can establish a mapping between them. A classical approach is to use regression. However, according to the authors' speculation, <strong>regression might be an ineffective loss function</strong> as it deviates from the ultimate goal, i.e., maximizing the discrimination between different speech segments. In fact, the design of regression loss implies that all dimensions of the Mel spectrogram are equally important and have similar scales. Similar to the regression loss of mean squared error, it tends to make the model equally good at predicting low and high frequencies, even if (1) certain frequencies, such as very low frequencies, may be irrelevant to speech, and (2) the variation range of certain frequencies may be much lower than others.</p>
+<p>In the previous steps, extreme outliers have been removed, and normalization operations have been carefully designed. Finally, the authors chose <strong>contrastive loss</strong> as the training objective of the model to naturally encourage the model to focus on important information dimensions and appropriately scale them.</p>
 <p>Let $X$ be a brain recording segment and $Y\in \mathbb{R}^{F\times T}$ the latent representation of its corresponding sound (a.k.a "<em>positive</em> sample"). We sample $N - 1 $ <em>negative</em> samples $\bar{Y}_{j\in \{1, \ldots, N-1\}}$ over our dataset and we add the positive sample as $\bar{Y}_N = Y$.</p>
 <p>We want our model to predict the probabilities
 $
@@ -9648,7 +9666,7 @@ $Z = f_{\mathrm{clip}}(X) \in \mathbb{R}^{F\times T}$. The estimated probability
 \end{equation}
 $$</p>
 <p>with $\langle \cdot, \cdot \rangle$ the inner product over both dimensions of $Z$ and $\hat{Y}$.</p>
-<p>在推理阶段，对于一个测试样本，它连同被收集的负样本一起被被考察。$\hat{p}_{N}$将作为分类成功的概率。如果将$\bar{p}_{j\in \{1, \ldots, N\}}$按照数值从大到小进行排序，$\hat{p}_{N}$位于第一个位的话，那称之为Top-1 accuracy。位于前十位的话，那这个样本将会为Top-10 accuracy作出贡献。</p>
+<p>During the inference stage, for a test sample, it is examined along with the collected negative samples. $\hat{p}_{N}$ denotes the probability of being classified successfully. If $\bar{p}_{j\in \{1, \ldots, N\}}$  are ranked the first in terms of value when sorted in descending order, it is referred to as Top-1 accuracy. If it is ranked among the top ten, it contributes to the Top-10 accuracy.</p>
 <p>To train $f_{\mathrm{clip}}$ with a cross-entropy between $p_{j}$ and $\hat{p}_{j}$. Note that for a large enough dataset,
 we can neglect the probability of sampling twice the same segment, so that we have $p_j = 1_{j = N}$ ,
 and the cross-entropy simplifies to</p>
@@ -9663,7 +9681,7 @@ $$</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=c0117d2b-8b20-4d41-90b6-71bec2c5f7cf">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9679,7 +9697,7 @@ $$</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=040cdbd0-bd1e-4b17-8e9e-61a98de030fc">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9706,17 +9724,17 @@ $$</p>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=d6808357-f67f-4ecd-bfba-7a54ebb581bb">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Result">Result<a class="anchor-link" href="#Result">¶</a></h3><p>最后，我们可以循环整个测试集，得到统计结果。可以看到，我们成功地在gwilliams2022数据集上复现了<code>Top-10 acc: 70.60</code>.</p>
+<h3 id="Result">Result<a class="anchor-link" href="#Result">¶</a></h3><p>Finally, we can iterate through the entire test set to obtain statistical results. It can be seen that we have successfully reproduced a Top-10 accuracy of <code>Top-10 acc: 70.60</code> on the gwilliams2022 dataset.</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=e16aa0fb-72a1-4b3f-82cc-c680fa2661f5">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9743,18 +9761,33 @@ $$</p>
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>[<span class="ansi-cyan-fg">11-12 20:56:04</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - Loading solver 97d170e1
-[<span class="ansi-cyan-fg">11-12 20:56:04</span>][<span class="ansi-blue-fg">bm.play</span>][<span class="ansi-green-fg">INFO</span>] - Loading solver from XP 97d170e1. Overrides used: ['dset.selections=[gwilliams2022]']
-[<span class="ansi-cyan-fg">11-12 20:56:04</span>][<span class="ansi-blue-fg">bm._env</span>][<span class="ansi-yellow-fg">WARNING</span>] - Hostname gpu253.corp.yodao.com not defined in /conf/study_paths/study_paths.yaml. Using default paths.
-[<span class="ansi-cyan-fg">11-12 20:56:04</span>][<span class="ansi-blue-fg">bm.dataset</span>][<span class="ansi-yellow-fg">WARNING</span>] - Requested 1000 recordings but only found 196
-[<span class="ansi-cyan-fg">11-12 20:56:15</span>][<span class="ansi-blue-fg">bm.dataset</span>][<span class="ansi-green-fg">INFO</span>] - Loading Subjects | 39/196 | 5.95 it/sec
-[<span class="ansi-cyan-fg">11-12 20:56:21</span>][<span class="ansi-blue-fg">bm.dataset</span>][<span class="ansi-green-fg">INFO</span>] - Loading Subjects | 78/196 | 6.01 it/sec
-[<span class="ansi-cyan-fg">11-12 20:56:29</span>][<span class="ansi-blue-fg">bm.dataset</span>][<span class="ansi-green-fg">INFO</span>] - Loading Subjects | 117/196 | 5.74 it/sec
-[<span class="ansi-cyan-fg">11-12 20:56:35</span>][<span class="ansi-blue-fg">bm.dataset</span>][<span class="ansi-green-fg">INFO</span>] - Loading Subjects | 156/196 | 5.77 it/sec
-[<span class="ansi-cyan-fg">11-12 20:56:42</span>][<span class="ansi-blue-fg">bm.dataset</span>][<span class="ansi-green-fg">INFO</span>] - Loading Subjects | 195/196 | 5.75 it/sec
-[<span class="ansi-cyan-fg">11-12 20:56:42</span>][<span class="ansi-blue-fg">bm.dataset</span>][<span class="ansi-green-fg">INFO</span>] - # Examples (train | valid | test): 203152 | 35156 | 69972
-[<span class="ansi-cyan-fg">11-12 20:56:42</span>][<span class="ansi-blue-fg">bm.train</span>][<span class="ansi-green-fg">INFO</span>] - Model hash: ed97b0fbdffe06faf696d2eecaacb57b143fd68d
-[<span class="ansi-cyan-fg">11-12 20:56:43</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - Extracting test data
+<pre>[<span class="ansi-cyan-fg">11-14 22:39:10</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - Loading solver 97d170e1
+[<span class="ansi-cyan-fg">11-14 22:39:10</span>][<span class="ansi-blue-fg">bm.play</span>][<span class="ansi-green-fg">INFO</span>] - Loading solver from XP 97d170e1. Overrides used: ['dset.selections=[gwilliams2022]']
+[<span class="ansi-cyan-fg">11-14 22:39:10</span>][<span class="ansi-blue-fg">bm._env</span>][<span class="ansi-yellow-fg">WARNING</span>] - Hostname gpu226.corp.yodao.com not defined in /conf/study_paths/study_paths.yaml. Using default paths.
+</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>xp._argv_cache: /ssd3/other/penglinkai01/brainmagick/outputs/xps/97d170e1/.argv.json
+</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
+<pre>[<span class="ansi-cyan-fg">11-14 22:39:10</span>][<span class="ansi-blue-fg">bm.dataset</span>][<span class="ansi-yellow-fg">WARNING</span>] - Requested 1000 recordings but only found 196
+[<span class="ansi-cyan-fg">11-14 22:39:21</span>][<span class="ansi-blue-fg">bm.dataset</span>][<span class="ansi-green-fg">INFO</span>] - Loading Subjects | 39/196 | 6.21 it/sec
+[<span class="ansi-cyan-fg">11-14 22:39:27</span>][<span class="ansi-blue-fg">bm.dataset</span>][<span class="ansi-green-fg">INFO</span>] - Loading Subjects | 78/196 | 6.09 it/sec
+[<span class="ansi-cyan-fg">11-14 22:39:34</span>][<span class="ansi-blue-fg">bm.dataset</span>][<span class="ansi-green-fg">INFO</span>] - Loading Subjects | 117/196 | 6.05 it/sec
+[<span class="ansi-cyan-fg">11-14 22:39:41</span>][<span class="ansi-blue-fg">bm.dataset</span>][<span class="ansi-green-fg">INFO</span>] - Loading Subjects | 156/196 | 5.83 it/sec
+[<span class="ansi-cyan-fg">11-14 22:39:48</span>][<span class="ansi-blue-fg">bm.dataset</span>][<span class="ansi-green-fg">INFO</span>] - Loading Subjects | 195/196 | 5.84 it/sec
+[<span class="ansi-cyan-fg">11-14 22:39:48</span>][<span class="ansi-blue-fg">bm.dataset</span>][<span class="ansi-green-fg">INFO</span>] - # Examples (train | valid | test): 203152 | 35156 | 69972
+[<span class="ansi-cyan-fg">11-14 22:39:48</span>][<span class="ansi-blue-fg">bm.train</span>][<span class="ansi-green-fg">INFO</span>] - Model hash: ed97b0fbdffe06faf696d2eecaacb57b143fd68d
+/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/site-packages/flashy/loggers/tensorboard.py:47: UserWarning: tensorboard package was not found: use pip install tensorboard
+  warnings.warn("tensorboard package was not found: use pip install tensorboard")
+[<span class="ansi-cyan-fg">11-14 22:39:48</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - Extracting test data
 </pre>
 </div>
 </div>
@@ -9762,375 +9795,321 @@ $$</p>
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>['gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022', 'gwilliams2022']
-batch.features.shape: torch.Size([1000, 1025, 361])
-batch.features.shape: torch.Size([1000, 1025, 361])
-batch.features.shape: torch.Size([1000, 1025, 361])
-batch.features.shape: torch.Size([1000, 1025, 361])
 </pre>
 </div>
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>[<span class="ansi-cyan-fg">11-12 20:58:47</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - extract | 3/70 | 30.4 sec/it
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>batch.features.shape: torch.Size([1000, 1025, 361])
-batch.features.shape: torch.Size([1000, 1025, 361])
-batch.features.shape: torch.Size([1000, 1025, 361])
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>[<span class="ansi-cyan-fg">11-12 20:58:55</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - extract | 6/70 | 18.5 sec/it
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>batch.features.shape: torch.Size([1000, 1025, 361])
-batch.features.shape: torch.Size([1000, 1025, 361])
-batch.features.shape: torch.Size([1000, 1025, 361])
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>[<span class="ansi-cyan-fg">11-12 20:59:03</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - extract | 9/70 | 13.7 sec/it
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>batch.features.shape: torch.Size([1000, 1025, 361])
-batch.features.shape: torch.Size([1000, 1025, 361])
-batch.features.shape: torch.Size([1000, 1025, 361])
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>[<span class="ansi-cyan-fg">11-12 20:59:11</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - extract | 12/70 | 11.2 sec/it
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>batch.features.shape: torch.Size([1000, 1025, 361])
-batch.features.shape: torch.Size([1000, 1025, 361])
-batch.features.shape: torch.Size([1000, 1025, 361])
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>[<span class="ansi-cyan-fg">11-12 20:59:19</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - extract | 15/70 | 0.10 it/sec
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>batch.features.shape: torch.Size([1000, 1025, 361])
-batch.features.shape: torch.Size([1000, 1025, 361])
-batch.features.shape: torch.Size([1000, 1025, 361])
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>[<span class="ansi-cyan-fg">11-12 20:59:26</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - extract | 18/70 | 0.12 it/sec
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>batch.features.shape: torch.Size([1000, 1025, 361])
-batch.features.shape: torch.Size([1000, 1025, 361])
-batch.features.shape: torch.Size([1000, 1025, 361])
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>[<span class="ansi-cyan-fg">11-12 20:59:36</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - extract | 21/70 | 0.13 it/sec
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>batch.features.shape: torch.Size([1000, 1025, 361])
-batch.features.shape: torch.Size([1000, 1025, 361])
-batch.features.shape: torch.Size([1000, 1025, 361])
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>[<span class="ansi-cyan-fg">11-12 20:59:43</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - extract | 24/70 | 0.14 it/sec
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>batch.features.shape: torch.Size([1000, 1025, 361])
-batch.features.shape: torch.Size([1000, 1025, 361])
-batch.features.shape: torch.Size([1000, 1025, 361])
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>[<span class="ansi-cyan-fg">11-12 20:59:51</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - extract | 27/70 | 0.15 it/sec
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>batch.features.shape: torch.Size([1000, 1025, 361])
-batch.features.shape: torch.Size([1000, 1025, 361])
-batch.features.shape: torch.Size([1000, 1025, 361])
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>[<span class="ansi-cyan-fg">11-12 20:59:59</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - extract | 30/70 | 0.16 it/sec
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>batch.features.shape: torch.Size([1000, 1025, 361])
-batch.features.shape: torch.Size([1000, 1025, 361])
-batch.features.shape: torch.Size([1000, 1025, 361])
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>[<span class="ansi-cyan-fg">11-12 21:00:08</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - extract | 33/70 | 0.17 it/sec
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>batch.features.shape: torch.Size([1000, 1025, 361])
-batch.features.shape: torch.Size([1000, 1025, 361])
-batch.features.shape: torch.Size([1000, 1025, 361])
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>[<span class="ansi-cyan-fg">11-12 21:00:16</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - extract | 36/70 | 0.18 it/sec
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>batch.features.shape: torch.Size([1000, 1025, 361])
-batch.features.shape: torch.Size([1000, 1025, 361])
-batch.features.shape: torch.Size([1000, 1025, 361])
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>[<span class="ansi-cyan-fg">11-12 21:00:24</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - extract | 39/70 | 0.18 it/sec
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>batch.features.shape: torch.Size([1000, 1025, 361])
-batch.features.shape: torch.Size([1000, 1025, 361])
-batch.features.shape: torch.Size([1000, 1025, 361])
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>[<span class="ansi-cyan-fg">11-12 21:00:32</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - extract | 42/70 | 0.19 it/sec
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>batch.features.shape: torch.Size([1000, 1025, 361])
-batch.features.shape: torch.Size([1000, 1025, 361])
-batch.features.shape: torch.Size([1000, 1025, 361])
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>[<span class="ansi-cyan-fg">11-12 21:00:41</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - extract | 45/70 | 0.20 it/sec
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>batch.features.shape: torch.Size([1000, 1025, 361])
-batch.features.shape: torch.Size([1000, 1025, 361])
-batch.features.shape: torch.Size([1000, 1025, 361])
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>[<span class="ansi-cyan-fg">11-12 21:00:49</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - extract | 48/70 | 0.20 it/sec
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>batch.features.shape: torch.Size([1000, 1025, 361])
-batch.features.shape: torch.Size([1000, 1025, 361])
-batch.features.shape: torch.Size([1000, 1025, 361])
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>[<span class="ansi-cyan-fg">11-12 21:00:56</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - extract | 51/70 | 0.21 it/sec
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>batch.features.shape: torch.Size([1000, 1025, 361])
-batch.features.shape: torch.Size([1000, 1025, 361])
-batch.features.shape: torch.Size([1000, 1025, 361])
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>[<span class="ansi-cyan-fg">11-12 21:01:03</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - extract | 54/70 | 0.21 it/sec
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>batch.features.shape: torch.Size([1000, 1025, 361])
-batch.features.shape: torch.Size([1000, 1025, 361])
-batch.features.shape: torch.Size([1000, 1025, 361])
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>[<span class="ansi-cyan-fg">11-12 21:01:10</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - extract | 57/70 | 0.22 it/sec
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>batch.features.shape: torch.Size([1000, 1025, 361])
-batch.features.shape: torch.Size([1000, 1025, 361])
-batch.features.shape: torch.Size([1000, 1025, 361])
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>[<span class="ansi-cyan-fg">11-12 21:01:17</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - extract | 60/70 | 0.22 it/sec
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>batch.features.shape: torch.Size([1000, 1025, 361])
-batch.features.shape: torch.Size([1000, 1025, 361])
-batch.features.shape: torch.Size([1000, 1025, 361])
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>[<span class="ansi-cyan-fg">11-12 21:01:25</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - extract | 63/70 | 0.23 it/sec
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>batch.features.shape: torch.Size([1000, 1025, 361])
-batch.features.shape: torch.Size([1000, 1025, 361])
-batch.features.shape: torch.Size([1000, 1025, 361])
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>[<span class="ansi-cyan-fg">11-12 21:01:32</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - extract | 66/70 | 0.23 it/sec
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>batch.features.shape: torch.Size([1000, 1025, 361])
-batch.features.shape: torch.Size([1000, 1025, 361])
-batch.features.shape: torch.Size([972, 1025, 361])
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>[<span class="ansi-cyan-fg">11-12 21:01:40</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - extract | 69/70 | 0.24 it/sec
+<pre>[<span class="ansi-cyan-fg">11-14 22:40:33</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - extract | 3/70 | 10.8 sec/it
+[<span class="ansi-cyan-fg">11-14 22:40:41</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - extract | 6/70 | 0.14 it/sec
+[<span class="ansi-cyan-fg">11-14 22:40:49</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - extract | 9/70 | 0.17 it/sec
+[<span class="ansi-cyan-fg">11-14 22:40:58</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - extract | 12/70 | 0.19 it/sec
+[<span class="ansi-cyan-fg">11-14 22:41:07</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - extract | 15/70 | 0.21 it/sec
+[<span class="ansi-cyan-fg">11-14 22:41:19</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - extract | 18/70 | 0.21 it/sec
+[<span class="ansi-cyan-fg">11-14 22:41:30</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - extract | 21/70 | 0.22 it/sec
+[<span class="ansi-cyan-fg">11-14 22:41:39</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - extract | 24/70 | 0.23 it/sec
+[<span class="ansi-cyan-fg">11-14 22:41:48</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - extract | 27/70 | 0.24 it/sec
+[<span class="ansi-cyan-fg">11-14 22:41:57</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - extract | 30/70 | 0.24 it/sec
+[<span class="ansi-cyan-fg">11-14 22:42:07</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - extract | 33/70 | 0.25 it/sec
+[<span class="ansi-cyan-fg">11-14 22:42:16</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - extract | 36/70 | 0.25 it/sec
+[<span class="ansi-cyan-fg">11-14 22:42:26</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - extract | 39/70 | 0.26 it/sec
+[<span class="ansi-cyan-fg">11-14 22:42:36</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - extract | 42/70 | 0.26 it/sec
+[<span class="ansi-cyan-fg">11-14 22:42:45</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - extract | 45/70 | 0.26 it/sec
+[<span class="ansi-cyan-fg">11-14 22:42:54</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - extract | 48/70 | 0.27 it/sec
+[<span class="ansi-cyan-fg">11-14 22:43:04</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - extract | 51/70 | 0.27 it/sec
+[<span class="ansi-cyan-fg">11-14 22:43:14</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - extract | 54/70 | 0.27 it/sec
+[<span class="ansi-cyan-fg">11-14 22:43:24</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - extract | 57/70 | 0.27 it/sec
+[<span class="ansi-cyan-fg">11-14 22:43:34</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - extract | 60/70 | 0.27 it/sec
+[<span class="ansi-cyan-fg">11-14 22:43:44</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - extract | 63/70 | 0.27 it/sec
+[<span class="ansi-cyan-fg">11-14 22:43:54</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - extract | 66/70 | 0.27 it/sec
+[<span class="ansi-cyan-fg">11-14 22:44:04</span>][<span class="ansi-blue-fg">scripts.run_eval_probs</span>][<span class="ansi-green-fg">INFO</span>] - extract | 69/70 | 0.28 it/sec
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+Traceback (most recent call last):
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 718, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 675, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 718, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 718, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 718, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 673, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 718, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 718, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 675, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+OSError: [Errno 16] Device or resource busy: '.nfs000000001f9e16e100000ad8'
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 675, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 675, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 675, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 675, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 673, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+Traceback (most recent call last):
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 673, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 673, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 673, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 673, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs000000001f9e03c700000ade'
+Traceback (most recent call last):
+OSError: [Errno 16] Device or resource busy: '.nfs000000001f9e16e400000add'
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 718, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+OSError: [Errno 16] Device or resource busy: '.nfs000000001f9e16ef00000adf'
+OSError: [Errno 16] Device or resource busy: '.nfs000000001f9e16e900000ad6'
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+OSError: [Errno 16] Device or resource busy: '.nfs000000001f9e03cb00000ae4'
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 675, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 673, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 718, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 675, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+OSError: [Errno 16] Device or resource busy: '.nfs000000001f9e16e200000ad3'
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 718, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 673, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+OSError: [Errno 16] Device or resource busy: '.nfs000000001f9e16e500000adc'
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 675, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 673, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 718, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+OSError: [Errno 16] Device or resource busy: '.nfs000000001f9e16ea00000adb'
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 718, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 718, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 718, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 718, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 718, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 718, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 718, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 675, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 718, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 675, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 675, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 675, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 675, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 718, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 675, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 673, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 675, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 675, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 718, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 673, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 675, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 673, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 673, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 675, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 673, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 673, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs000000001f9e16e000000ae2'
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 673, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 675, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 673, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs000000001f9e16ed00000ae1'
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 673, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs000000001f9e16e800000ad9'
+OSError: [Errno 16] Device or resource busy: '.nfs000000001f9e16e300000ade'
+OSError: [Errno 16] Device or resource busy: '.nfs000000001f9e03c600000ad5'
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 673, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs000000001f9e16f000000ada'
+  File "/ssd3/other/penglinkai01/miniconda3/envs/bm/lib/python3.8/shutil.py", line 673, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs000000001f9e16e700000ae5'
+OSError: [Errno 16] Device or resource busy: '.nfs000000001f9e16ec00000ae0'
+OSError: [Errno 16] Device or resource busy: '.nfs000000001f9e16eb00000ae3'
+OSError: [Errno 16] Device or resource busy: '.nfs000000001f9e16e600000ad7'
+OSError: [Errno 16] Device or resource busy: '.nfs000000001f9e16ee00000ad4'
 </pre>
 </div>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=e0a9891a-ade5-4296-9e00-a7914fb98225">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -10166,32 +10145,32 @@ batch.features.shape: torch.Size([972, 1025, 361])
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>[<span class="ansi-cyan-fg">11-12 21:02:21</span>][<span class="ansi-blue-fg">__main__</span>][<span class="ansi-green-fg">INFO</span>] - probs | 437/8747 | 97.85 it/sec
-[<span class="ansi-cyan-fg">11-12 21:02:26</span>][<span class="ansi-blue-fg">__main__</span>][<span class="ansi-green-fg">INFO</span>] - probs | 874/8747 | 98.39 it/sec
-[<span class="ansi-cyan-fg">11-12 21:02:30</span>][<span class="ansi-blue-fg">__main__</span>][<span class="ansi-green-fg">INFO</span>] - probs | 1311/8747 | 98.02 it/sec
-[<span class="ansi-cyan-fg">11-12 21:02:35</span>][<span class="ansi-blue-fg">__main__</span>][<span class="ansi-green-fg">INFO</span>] - probs | 1748/8747 | 98.24 it/sec
-[<span class="ansi-cyan-fg">11-12 21:02:39</span>][<span class="ansi-blue-fg">__main__</span>][<span class="ansi-green-fg">INFO</span>] - probs | 2185/8747 | 97.83 it/sec
-[<span class="ansi-cyan-fg">11-12 21:02:44</span>][<span class="ansi-blue-fg">__main__</span>][<span class="ansi-green-fg">INFO</span>] - probs | 2622/8747 | 97.97 it/sec
-[<span class="ansi-cyan-fg">11-12 21:02:48</span>][<span class="ansi-blue-fg">__main__</span>][<span class="ansi-green-fg">INFO</span>] - probs | 3059/8747 | 97.84 it/sec
-[<span class="ansi-cyan-fg">11-12 21:02:53</span>][<span class="ansi-blue-fg">__main__</span>][<span class="ansi-green-fg">INFO</span>] - probs | 3496/8747 | 97.86 it/sec
-[<span class="ansi-cyan-fg">11-12 21:02:57</span>][<span class="ansi-blue-fg">__main__</span>][<span class="ansi-green-fg">INFO</span>] - probs | 3933/8747 | 97.95 it/sec
-[<span class="ansi-cyan-fg">11-12 21:03:01</span>][<span class="ansi-blue-fg">__main__</span>][<span class="ansi-green-fg">INFO</span>] - probs | 4370/8747 | 97.85 it/sec
-[<span class="ansi-cyan-fg">11-12 21:03:06</span>][<span class="ansi-blue-fg">__main__</span>][<span class="ansi-green-fg">INFO</span>] - probs | 4807/8747 | 98.36 it/sec
-[<span class="ansi-cyan-fg">11-12 21:03:10</span>][<span class="ansi-blue-fg">__main__</span>][<span class="ansi-green-fg">INFO</span>] - probs | 5244/8747 | 99.01 it/sec
-[<span class="ansi-cyan-fg">11-12 21:03:14</span>][<span class="ansi-blue-fg">__main__</span>][<span class="ansi-green-fg">INFO</span>] - probs | 5681/8747 | 99.29 it/sec
-[<span class="ansi-cyan-fg">11-12 21:03:18</span>][<span class="ansi-blue-fg">__main__</span>][<span class="ansi-green-fg">INFO</span>] - probs | 6118/8747 | 99.65 it/sec
-[<span class="ansi-cyan-fg">11-12 21:03:22</span>][<span class="ansi-blue-fg">__main__</span>][<span class="ansi-green-fg">INFO</span>] - probs | 6555/8747 | 100.09 it/sec
-[<span class="ansi-cyan-fg">11-12 21:03:26</span>][<span class="ansi-blue-fg">__main__</span>][<span class="ansi-green-fg">INFO</span>] - probs | 6992/8747 | 100.36 it/sec
-[<span class="ansi-cyan-fg">11-12 21:03:31</span>][<span class="ansi-blue-fg">__main__</span>][<span class="ansi-green-fg">INFO</span>] - probs | 7429/8747 | 100.48 it/sec
-[<span class="ansi-cyan-fg">11-12 21:03:35</span>][<span class="ansi-blue-fg">__main__</span>][<span class="ansi-green-fg">INFO</span>] - probs | 7866/8747 | 100.45 it/sec
-[<span class="ansi-cyan-fg">11-12 21:03:39</span>][<span class="ansi-blue-fg">__main__</span>][<span class="ansi-green-fg">INFO</span>] - probs | 8303/8747 | 100.54 it/sec
-[<span class="ansi-cyan-fg">11-12 21:03:44</span>][<span class="ansi-blue-fg">__main__</span>][<span class="ansi-green-fg">INFO</span>] - probs | 8740/8747 | 100.77 it/sec
+<pre>[<span class="ansi-cyan-fg">11-14 22:44:32</span>][<span class="ansi-blue-fg">__main__</span>][<span class="ansi-green-fg">INFO</span>] - probs | 437/8747 | 60.30 it/sec
+[<span class="ansi-cyan-fg">11-14 22:44:39</span>][<span class="ansi-blue-fg">__main__</span>][<span class="ansi-green-fg">INFO</span>] - probs | 874/8747 | 61.85 it/sec
+[<span class="ansi-cyan-fg">11-14 22:44:45</span>][<span class="ansi-blue-fg">__main__</span>][<span class="ansi-green-fg">INFO</span>] - probs | 1311/8747 | 62.29 it/sec
+[<span class="ansi-cyan-fg">11-14 22:44:54</span>][<span class="ansi-blue-fg">__main__</span>][<span class="ansi-green-fg">INFO</span>] - probs | 1748/8747 | 58.44 it/sec
+[<span class="ansi-cyan-fg">11-14 22:45:12</span>][<span class="ansi-blue-fg">__main__</span>][<span class="ansi-green-fg">INFO</span>] - probs | 2185/8747 | 45.84 it/sec
+[<span class="ansi-cyan-fg">11-14 22:45:45</span>][<span class="ansi-blue-fg">__main__</span>][<span class="ansi-green-fg">INFO</span>] - probs | 2622/8747 | 32.59 it/sec
+[<span class="ansi-cyan-fg">11-14 22:46:06</span>][<span class="ansi-blue-fg">__main__</span>][<span class="ansi-green-fg">INFO</span>] - probs | 3059/8747 | 30.19 it/sec
+[<span class="ansi-cyan-fg">11-14 22:46:24</span>][<span class="ansi-blue-fg">__main__</span>][<span class="ansi-green-fg">INFO</span>] - probs | 3496/8747 | 29.15 it/sec
+[<span class="ansi-cyan-fg">11-14 22:46:54</span>][<span class="ansi-blue-fg">__main__</span>][<span class="ansi-green-fg">INFO</span>] - probs | 3933/8747 | 26.34 it/sec
+[<span class="ansi-cyan-fg">11-14 22:47:10</span>][<span class="ansi-blue-fg">__main__</span>][<span class="ansi-green-fg">INFO</span>] - probs | 4370/8747 | 26.31 it/sec
+[<span class="ansi-cyan-fg">11-14 22:47:36</span>][<span class="ansi-blue-fg">__main__</span>][<span class="ansi-green-fg">INFO</span>] - probs | 4807/8747 | 25.09 it/sec
+[<span class="ansi-cyan-fg">11-14 22:48:16</span>][<span class="ansi-blue-fg">__main__</span>][<span class="ansi-green-fg">INFO</span>] - probs | 5244/8747 | 22.61 it/sec
+[<span class="ansi-cyan-fg">11-14 22:48:55</span>][<span class="ansi-blue-fg">__main__</span>][<span class="ansi-green-fg">INFO</span>] - probs | 5681/8747 | 21.00 it/sec
+[<span class="ansi-cyan-fg">11-14 22:49:18</span>][<span class="ansi-blue-fg">__main__</span>][<span class="ansi-green-fg">INFO</span>] - probs | 6118/8747 | 20.86 it/sec
+[<span class="ansi-cyan-fg">11-14 22:49:55</span>][<span class="ansi-blue-fg">__main__</span>][<span class="ansi-green-fg">INFO</span>] - probs | 6555/8747 | 19.85 it/sec
+[<span class="ansi-cyan-fg">11-14 22:50:23</span>][<span class="ansi-blue-fg">__main__</span>][<span class="ansi-green-fg">INFO</span>] - probs | 6992/8747 | 19.48 it/sec
+[<span class="ansi-cyan-fg">11-14 22:50:58</span>][<span class="ansi-blue-fg">__main__</span>][<span class="ansi-green-fg">INFO</span>] - probs | 7429/8747 | 18.87 it/sec
+[<span class="ansi-cyan-fg">11-14 22:51:20</span>][<span class="ansi-blue-fg">__main__</span>][<span class="ansi-green-fg">INFO</span>] - probs | 7866/8747 | 18.94 it/sec
+[<span class="ansi-cyan-fg">11-14 22:51:37</span>][<span class="ansi-blue-fg">__main__</span>][<span class="ansi-green-fg">INFO</span>] - probs | 8303/8747 | 19.19 it/sec
+[<span class="ansi-cyan-fg">11-14 22:52:14</span>][<span class="ansi-blue-fg">__main__</span>][<span class="ansi-green-fg">INFO</span>] - probs | 8740/8747 | 18.61 it/sec
 </pre>
 </div>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=ef6878f8-eacd-4e9a-af6e-d6e98c01ccc4">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -10228,82 +10207,45 @@ batch.features.shape: torch.Size([972, 1025, 361])
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>[<span class="ansi-cyan-fg">11-12 21:03:44</span>][<span class="ansi-blue-fg">__main__</span>][<span class="ansi-green-fg">INFO</span>] - Top-1 acc: 41.16
-[<span class="ansi-cyan-fg">11-12 21:03:44</span>][<span class="ansi-blue-fg">__main__</span>][<span class="ansi-green-fg">INFO</span>] - Top-5 acc: 62.52
-[<span class="ansi-cyan-fg">11-12 21:03:44</span>][<span class="ansi-blue-fg">__main__</span>][<span class="ansi-green-fg">INFO</span>] - Top-10 acc: 70.60
+<pre>[<span class="ansi-cyan-fg">11-14 22:52:14</span>][<span class="ansi-blue-fg">__main__</span>][<span class="ansi-green-fg">INFO</span>] - Top-1 acc: 41.16
+[<span class="ansi-cyan-fg">11-14 22:52:14</span>][<span class="ansi-blue-fg">__main__</span>][<span class="ansi-green-fg">INFO</span>] - Top-5 acc: 62.52
+[<span class="ansi-cyan-fg">11-14 22:52:14</span>][<span class="ansi-blue-fg">__main__</span>][<span class="ansi-green-fg">INFO</span>] - Top-10 acc: 70.60
 </pre>
 </div>
 </div>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=999bf93d-5898-4188-a45e-a13e8af844e2">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Attention-Map">Attention Map<a class="anchor-link" href="#Attention-Map">¶</a></h3>
+<h3 id="Discussion">Discussion<a class="anchor-link" href="#Discussion">¶</a></h3><p>From the above experimental results, the Top-10 accuracy is 70%, which is an exciting result. The experimental results indicate that many of the proposed methods and processing steps have had a positive impact on the results. However, the following facts mean that we still need to make a lot of efforts:</p>
+<ol>
+<li><p>Generalization: Subject embedding is a great attempt, which means that future decoding systems do not require complex adaptation for each individual. However, the differences between datasets indicate that this problem is still challenging.</p>
+</li>
+<li><p>Supervised EEG segmentation: The EEG signals are segmented in a "supervised" manner using speech annotations. In other words, "we know that this part contains speech" and then classify it.</p>
+</li>
+<li><p>Precision: Each unit for classification is a 3s segment. Pretrained speech features are compressed, making it difficult to decode continuous speech with low time resolution.</p>
+</li>
+</ol>
+<p>Language models, especially large Language models, may have promising capabilities to alleviate the low time resolution problem to some extent. As mentioned as above, <a href="https://www.nature.com/articles/s41593-023-01304-9">Tang et al.</a> leverage GPT and a creative beam search method to enhance decoding performance with contextual information.</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=827c326f-647f-4364-9eb7-5f362a067ec1">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [35]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_attention_map</span><span class="p">(</span><span class="n">solver</span><span class="p">):</span>
-    <span class="n">loader</span> <span class="o">=</span> <span class="n">solver</span><span class="o">.</span><span class="n">make_loader</span><span class="p">(</span><span class="n">solver</span><span class="o">.</span><span class="n">datasets</span><span class="o">.</span><span class="n">train</span><span class="p">)</span>
-    <span class="n">batch</span> <span class="o">=</span> <span class="nb">next</span><span class="p">(</span><span class="nb">iter</span><span class="p">(</span><span class="n">loader</span><span class="p">))</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="n">solver</span><span class="o">.</span><span class="n">device</span><span class="p">)</span>
-    <span class="n">model</span> <span class="o">=</span> <span class="n">solver</span><span class="o">.</span><span class="n">model</span>
-    <span class="n">merger</span> <span class="o">=</span> <span class="n">model</span><span class="o">.</span><span class="n">merger</span>
-    <span class="n">positions</span> <span class="o">=</span> <span class="n">merger</span><span class="o">.</span><span class="n">position_getter</span><span class="o">.</span><span class="n">get_positions</span><span class="p">(</span><span class="n">batch</span><span class="p">)</span>
-    <span class="n">embedding</span> <span class="o">=</span> <span class="n">merger</span><span class="o">.</span><span class="n">embedding</span><span class="p">(</span><span class="n">positions</span><span class="p">)</span>
-    <span class="n">meg</span> <span class="o">=</span> <span class="n">batch</span><span class="o">.</span><span class="n">meg</span>
-    <span class="n">B</span><span class="p">,</span> <span class="n">C</span><span class="p">,</span> <span class="n">T</span> <span class="o">=</span> <span class="n">meg</span><span class="o">.</span><span class="n">shape</span>
-    <span class="n">score_offset</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">B</span><span class="p">,</span> <span class="n">C</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="n">meg</span><span class="o">.</span><span class="n">device</span><span class="p">)</span>
-    <span class="n">score_offset</span><span class="p">[</span><span class="n">merger</span><span class="o">.</span><span class="n">position_getter</span><span class="o">.</span><span class="n">is_invalid</span><span class="p">(</span><span class="n">positions</span><span class="p">)]</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="s1">'-inf'</span><span class="p">)</span>
-    <span class="n">heads</span> <span class="o">=</span> <span class="n">merger</span><span class="o">.</span><span class="n">heads</span><span class="p">[</span><span class="kc">None</span><span class="p">]</span><span class="o">.</span><span class="n">expand</span><span class="p">(</span><span class="n">B</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span>
-    <span class="n">scores</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">einsum</span><span class="p">(</span><span class="s2">"bcd,bod-&gt;boc"</span><span class="p">,</span> <span class="n">embedding</span><span class="p">,</span> <span class="n">heads</span><span class="p">)</span>
-    <span class="n">scores</span> <span class="o">+=</span> <span class="n">score_offset</span><span class="p">[:,</span> <span class="kc">None</span><span class="p">]</span>
-    <span class="n">weights</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">softmax</span><span class="p">(</span><span class="n">scores</span><span class="p">,</span> <span class="n">dim</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
-    
-    <span class="c1"># Weights is of shape [Virtual Channels, Input Channels]</span>
-    <span class="c1"># Each Virtual Channel is a weighted sum over the input channels.</span>
-    <span class="c1"># Positions give the normalized 2d position for each Input channel.</span>
-    <span class="c1"># To get an overall weight for a given input sensor you can for instance do</span>
-    <span class="c1"># weights[0].sum(dim=0)</span>
-    <span class="k">return</span> <span class="n">weights</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">dim</span><span class="o">=</span><span class="mi">0</span><span class="p">),</span> <span class="n">positions</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<div class="highlight hl-ipython3"><pre><span></span> 
 </pre></div>
 </div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [37]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">weights</span><span class="p">,</span> <span class="n">positions</span> <span class="o">=</span> <span class="n">get_attention_map</span><span class="p">(</span><span class="n">evaluator</span><span class="o">.</span><span class="n">solver</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Part-Two:-Coming-Soon">Part Two: Coming Soon<a class="anchor-link" href="#Part-Two:-Coming-Soon">¶</a></h1>
 </div>
 </div>
 </div>
