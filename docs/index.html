@@ -9672,7 +9672,7 @@ and the cross-entropy simplifies to</p>
         \log\Big(\sum_{j'=1}^{N}\mathrm{e}^{\langle Z, \bar{Y}_j'\rangle} \Big).
 \end{equation}
 $$</p>
-<p>Following \citep{radford2021learning}, we use the other elements of the batch as negative samples at train time. At test time, the negative samples correspond to all of the segments of the test \jr{set}{} but the positive one.</p>
+<p>The other elements of the batch as negative samples at train time. At inference time, the negative samples correspond to all of the segments of the test set but the positive one.</p>
 </div>
 </div>
 </div>
